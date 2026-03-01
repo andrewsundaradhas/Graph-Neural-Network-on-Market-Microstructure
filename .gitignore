@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Data
+gnn_lob/data/*.csv
+
+# Models
+gnn_lob/models/*.pth
+gnn_lob/models/*.pt
+
+# C++ Build
+gnn_lob/cpp/build/
+*.exe
+*.obj
+*.o
+*.dll
+
+# IDEs
+.vscode/
+.idea/
